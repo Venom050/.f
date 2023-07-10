@@ -91,6 +91,10 @@
     top: 16px;
     right: 16px;
 
+    &:hover {
+      fill: var(--color-brand-light);
+    }
+
     @media screen and (min-width: $bp-desktop) {
       display: none;
     }
